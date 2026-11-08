@@ -102,3 +102,14 @@ git branch -M main
 git push -u origin main
 ```
 
+
+<br>
+
+<div align="center">
+  <p>
+    <i>Made with ❤️ and ☕ in Iran</i>
+  </p>
+  <p>
+    <i>«Write code, live beautifully, and help others.»</i>
+  </p>
+</div>
