@@ -54,15 +54,15 @@
       <h1>🛡️ Security Scan Report</h1>
       <div class="meta">
         <div><strong>Target:</strong> <code>http://testasp.vulnweb.com/Search.asp?tfSearch=test</code></div>
-        <div><strong>Scan date:</strong> 2026-10-07 23:53:35</div>
-        <div><strong>Duration:</strong> 8.27 seconds</div>
+        <div><strong>Scan date:</strong> 2026-11-09 11:27:46</div>
+        <div><strong>Duration:</strong> 9.49 seconds</div>
       </div>
     </header>
 
     <div class="stats">
       <div class="stat vuln"><div class="num">4</div><div class="label">Vulnerable</div></div>
-      <div class="stat susp"><div class="num">0</div><div class="label">Suspicious</div></div>
-      <div class="stat ok"><div class="num">6</div><div class="label">Passed</div></div>
+      <div class="stat susp"><div class="num">1</div><div class="label">Suspicious</div></div>
+      <div class="stat ok"><div class="num">5</div><div class="label">Passed</div></div>
     </div>
 
     <table>
@@ -122,8 +122,8 @@
   <td>SQLi</td>
   <td><strong>tfSearch</strong></td>
   <td class="payload">1 UNION SELECT NULL --</td>
-  <td><span class="tag OK">OK</span></td>
-  <td>No indicator found</td>
+  <td><span class="tag SUSPICIOUS">SUSPICIOUS</span></td>
+  <td>Response size significantly larger than baseline</td>
 </tr>
 <tr>
   <td>7</td>
