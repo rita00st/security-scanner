@@ -1,4 +1,9 @@
 
+  <div align="center">
+    <img src="screenshots/banner.jpg" alt="Banner" width="80%">
+  </div>
+
+  
 # 🛡️ Ruby Security Scanner
 
 A simple web vulnerability scanner written in Ruby, 
